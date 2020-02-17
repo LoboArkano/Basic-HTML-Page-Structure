@@ -1,25 +1,45 @@
 .nav_container {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	height: 65px;
+}
+.nav_item{
+	display: flex;
+	flex-direction: row;
+	width: 300px;
 	justify-content: space-around;
 }
 .menu_button {
-	background-color: blue;
-	height: 50px;
+	margin-left: 3%;
+	height: 65px;
 	width: 50px;
 }
 .menu_button img {
 	max-width: 50px;
-	max-height: 50px;
+	max-height: 65px;
 }
 .logo {
-	background-color: red;
-	height: 50px;
-	width: 100px;
+	margin-left: 5%;
+	height: 65px;
+	width: 200px;
 }
 .logo img {
+	width: 110px;
+	max-height: 65px;
+}
+.search_bar input{
+	width:  60%;
+}
+.search {
+	height: 50px;
+	width: 70px;
+	padding: 0px;
+}
+.search img {
+	margin: 0px;
 	max-width: 50px;
-	max-height: 100px;
+	max-height: 50px;
 }
 .button_upload {
 	background-color: yellow;
@@ -29,6 +49,14 @@
 .button_upload img {
 	max-width: 50px;
 	max-height: 50px;
+}
+.sign_in {
+	margin-left: 5%;
+	margin-right: 3%;
+	height: 50px;
+	border: none;
+	color: white;
+	background-color: rgb(1, 1, 190);
 }
 
 #video{
