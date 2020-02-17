@@ -112,11 +112,16 @@ body{
 	max-width: 50%;
 	max-height: 100%;
 	
+	
 }
 
 .thumbnail_text{
-	
 	background-color: cornsilk;
 	max-width: 40%;
+}
+
+.video_text{
+	text-align: left;
+
 }
 
