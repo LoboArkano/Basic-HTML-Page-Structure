@@ -14,6 +14,46 @@ body{
 .container .navbar{
     background: white;
     grid-column: span 2;
+    display: grid;
+    grid-template-columns: 5% 16% 1fr 5% 7% 8%;
+    grid-template-rows: 30px;
+    align-self: center;
+}
+
+.navbar #menu_logo {
+    justify-self: center;
+    align-self: center;
+	max-width: 25px;
+	max-height: 25px;
+}
+.navbar #ytlogo {
+    justify-self: start;
+    align-self: center;
+	width: 110px;
+	max-height: 65px;
+}
+.navbar #upload {
+    justify-self: center;
+    align-self: center;
+}
+.navbar #search {
+    width: 32px;
+    height: 28px;
+    border: 1px solid gray;
+    border-left: none;
+}
+.navbar #sign_in {
+    justify-self: center;
+    align-self: center;
+    line-height: 29px;
+    padding: 0px;
+	height: 30px;
+	width: 100%;
+    border: none;
+    font-size: 17px;
+    text-align: center;
+	color: white;
+	background-color: rgb(18, 104, 216);
 }
 /* NAVBAR */
 
