@@ -32,18 +32,18 @@ Before you continue, make you that you have installed:
 
 Authors
 
-bust_in_silhouette Author1
+Author1
 
     Github: @RossielCS
     Linkedin: https://www.linkedin.com/in/rossiel-carranza-1666b11a1/
 
-bust_in_silhouette Author2
+Author2
 
     Github: @LoboArkano
     Linkedin: https://www.linkedin.com/in/jos%C3%A9-roberto-p%C3%A9rez-jim%C3%A9nez-97a729195/
 
 
-handshake Contributing
+Contributing
 
 Contributions, issues and feature requests are welcome!
 
