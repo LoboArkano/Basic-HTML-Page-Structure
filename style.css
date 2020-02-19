@@ -198,6 +198,10 @@ body {
   rotate: 180deg;
 }
 
+.main_v_title button {
+  border: none;
+}
+
 /* MAIN VIDEO TITLE */
 
 /* MAIN VIDEO DESCRIPTION */
