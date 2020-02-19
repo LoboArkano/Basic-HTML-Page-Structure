@@ -8,6 +8,9 @@
 Screenshot
 ![image](https://user-images.githubusercontent.com/60085697/74850711-0c11c380-5319-11ea-83d4-34fded75d411.png)
 
+Live Demo:
+https://raw.githack.com/LoboArkano/Basic-HTML-Page-Structure/feature/index.html
+
 
 Additional description about the project and its features.
 Built With
@@ -37,7 +40,7 @@ bust_in_silhouette Author1
 bust_in_silhouette Author2
 
     Github: @LoboArkano
-    Linkedin: 
+    Linkedin: https://www.linkedin.com/in/jos%C3%A9-roberto-p%C3%A9rez-jim%C3%A9nez-97a729195/
 
 
 handshake Contributing
