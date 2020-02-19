@@ -91,6 +91,7 @@ body {
   line-height: 45px;
   background-color: white;
   color: black;
+  padding: 10px 10px 10px 10px;
 }
 
 .main_v_title #video_name {
@@ -160,7 +161,7 @@ body {
   color: rgb(158, 158, 158);
   justify-self: end;
   align-self: end;
-  line-height: 0px;
+  line-height: 0.5px;
 }
 
 #share img {
@@ -185,7 +186,7 @@ body {
   color: rgb(158, 158, 158);
   justify-self: end;
   align-self: center;
-  line-height: 0px;
+  line-height: 0.5px;
 }
 
 #like img {
@@ -259,7 +260,6 @@ body {
   text-align: left;
   font-weight: bold;
 }
-
 
 .thumbnail_title,
 .thumbnail_name,
