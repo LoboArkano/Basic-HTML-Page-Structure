@@ -37,7 +37,7 @@ body {
   background: white;
   grid-column: span 2;
   display: grid;
-  grid-template-columns: 5% 16% 1fr 5% 7% 8%;
+  grid-template-columns: 5% 16% 1fr 5% 6% 6% 6% 6% 6%;
   grid-template-rows: 30px;
   align-self: center;
 }
@@ -62,24 +62,15 @@ body {
 }
 
 .navbar #search {
-  width: 32px;
-  height: 28px;
+  width: 25px;
+  height: 25px;
   border: 1px solid gray;
   border-left: none;
 }
 
-.navbar #sign_in {
+.navbar .right_icon {
   justify-self: center;
   align-self: center;
-  line-height: 29px;
-  padding: 0px;
-  height: 30px;
-  width: 100%;
-  border: none;
-  font-size: 17px;
-  text-align: center;
-  color: white;
-  background-color: rgb(18, 104, 216);
 }
 
 /* NAVBAR */
