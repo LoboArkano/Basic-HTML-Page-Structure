@@ -158,14 +158,24 @@ body {
   grid-row: 4 / 5;
   font-size: 15px;
   color: rgb(158, 158, 158);
-  justify-self: center;
-  align-self: center;
+  justify-self: end;
+  align-self: end;
   line-height: 0px;
 }
 
 #share img {
   height: 23px;
   width: 23px;
+}
+
+#share_txt {
+  grid-column: 4/5;
+  grid-row: 4/5;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-right: 20px;
+  margin-left: 5px;
+  color: rgb(158, 158, 158);
 }
 
 .main_v_title #like {
@@ -199,7 +209,8 @@ body {
   padding: 5px;
 }
 
-#date, #description {
+#date,
+#description {
   padding: 10px;
   text-align: left;
 }
@@ -249,7 +260,10 @@ body {
   font-weight: bold;
 }
 
-.sidebar p {
+
+.thumbnail_title,
+.thumbnail_name,
+.thumbnail_views {
   line-height: 1.5;
   text-align: left;
 }
@@ -259,7 +273,8 @@ body {
   font-size: 15px;
 }
 
-.thumbnail_name, .thumbnail_views {
+.thumbnail_name,
+.thumbnail_views {
   font-size: 13px;
 }
 
@@ -268,7 +283,7 @@ body {
   color: rgb(58, 58, 58);
 }
 
-img {
+.video_img {
   max-width: 100%;
 }
 
@@ -279,7 +294,8 @@ img {
 
 /* SIDEBAR */
 
-#desc_showmore, .show_more {
+#desc_showmore,
+.show_more {
   text-align: center;
   font-size: 11px;
   border-top: 1px solid rgb(187, 186, 186);
