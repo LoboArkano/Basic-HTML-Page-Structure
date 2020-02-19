@@ -85,3 +85,102 @@ body{
     grid-row: span 2;
     padding: 0;
 }
+
+
+
+/* MAIN VIDEO DESCRIPTION */
+.container .main_v_desc{
+    margin-top: 10px;
+    line-height: 1;
+    background-color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#date, #description {
+    padding: 10px;
+    text-align: left;    
+}
+
+#date{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#desc_showmore{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+/* MAIN VIDEO DESCRIPTION */
+
+
+/* SIDEBAR */
+.container .sidebar{
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 200px 1fr;
+
+}
+
+.sidebar .top_sidebar{
+    grid-column: span 2;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    color: rgb(82, 82, 82);
+}
+
+.sidebar .up_next{
+    grid-column: 1/2;
+}
+
+.sidebar .autoplay{
+    grid-column: 3/4;
+}
+
+.sidebar .top_sidebar p{
+    font-size: 13px;
+    text-align: left;
+    font-weight: bold;  
+}
+
+.sidebar p{    
+    line-height: 1.5;
+    text-align: left;
+}
+
+.thumbnail_title{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.thumbnail_name, .thumbnail_views{
+    font-size: 13px;
+}
+
+
+.sidebar a{    
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+
+img{
+    max-width: 100%;
+}
+
+.show_more{
+    grid-column: span 2;
+    height: 20px;   
+}
+/* SIDEBAR */
+
+
+
+#desc_showmore, .show_more{
+    text-align: center;
+    font-size: 11px;
+    border-top: 1px solid rgb(187, 186, 186);
+    color: rgb(99, 98, 98);
+}
